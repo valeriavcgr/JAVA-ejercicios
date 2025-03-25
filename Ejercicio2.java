@@ -5,7 +5,7 @@ public class Ejercicio2 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("escriba su capital ");
         double plata = scanner.nextDouble();
-        double ganancia = plata * 0.02; // 2% mesual 
+        double ganancia = plata * 0.02; 
         System.out.println("Usted gana en el mes" + ganancia);
         scanner.close();
     }

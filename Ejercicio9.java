@@ -8,7 +8,7 @@ public class Ejercicio9 {
         System.out.print("ingrese el precio por hora");
         double precio = scanner.nextDouble();
         double salariob = horas * precio;
-        double imp = salariob* 0.20; // 20% de impuestos
+        double imp = salariob* 0.20; 
         double salario = salariob - imp;
         System.out.println("Su salario neto es " + salario);
         scanner.close();

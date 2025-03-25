@@ -5,7 +5,8 @@
 //1 franco francés = 20.110 pesetas 
 //1 libra esterlina = 178.938 pesetas 
 //100 liras italianas = 9.289 pesetas 
-//Lea una cantidad en chelines austriacos e imprima el equivalente en pesetas. Lea //una  cantidad en dracmas griegos e imprima su equivalente en francos franceses. Finalmente, lea //una  cantidad en pesetas e imprima su equivalente en dólares y liras italianas. 
+//Lea una cantidad en chelines austriacos e imprima el equivalente en pesetas. Lea 
+//una  cantidad en dracmas griegos e imprima su equivalente en francos franceses. Finalmente, lea //una  cantidad en pesetas e imprima su equivalente en dólares y liras italianas. 
 
 import java.util.Scanner;
 
