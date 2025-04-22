@@ -10,7 +10,7 @@ public class Ejercicio8 {
         this.C = ladoC;
     }
     
-    // Getter para calcular y obtener el semiperímetro
+
     public double getPerimetro() {
         return (A + B + C) / 2;
     }

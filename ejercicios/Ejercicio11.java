@@ -3,12 +3,12 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio11 {
-    // Definimos las variables privadas para los datos del trabajador
+   
     private String nombre;
     private double horasNormales, pagoHora, horasExtras;
     private int numeroHijos;
     
-    // Setter para asignar los valores ingresados
+    
     public void setDatos(String nombre, double horasNormales, double pagoHora, double horasExtras, int numeroHijos) {
         this.nombre = nombre;
         this.horasNormales = horasNormales;
@@ -17,17 +17,16 @@ public class Ejercicio11 {
         this.numeroHijos = numeroHijos;
     }
     
-    // Getter para calcular el sueldo base
+  
     public double getSueldoBase() {
         return horasNormales * pagoHora;
     }
     
-    // Getter para calcular el pago por horas extras
+    
     public double getPagoHorasExtras() {
         return horasExtras * (pagoHora * 1.25);
     }
     
-    // Getter para calcular las deducciones
     public double getDeducciones() {
         double sueldoBase = getSueldoBase();
         return (sueldoBase * 0.05) + (sueldoBase * 0.02) + (sueldoBase * 0.07);

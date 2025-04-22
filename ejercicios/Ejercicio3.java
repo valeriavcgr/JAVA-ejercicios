@@ -3,7 +3,6 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio3 {
-    // Definimos las variables privadas para el sueldo y las ventas
     private double sueldo;
     private double venta1;
     private double venta2;

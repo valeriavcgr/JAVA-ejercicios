@@ -57,9 +57,49 @@ public class menu {
                     Ejercicio12 examen = new Ejercicio12();
                     examen.materia();
                     break;
-
-
-
+                    case 13:
+                    Ejercicio13 billete = new Ejercicio13();
+                    billete. total();
+                    break;
+                    case 14:
+                    Ejercicio14 xy = new Ejercicio14();
+                    xy.calculo();
+                    break;
+                    case 15:
+                    Ejercicio15 lectura = new Ejercicio15();
+                    lectura.monto();
+                    break;
+                    case 16:
+                    Ejercicio16 largo = new Ejercicio16();
+                    largo.lamina();
+                    break;
+                    case 17:
+                    Ejercicio17 platas = new  Ejercicio17();
+                    platas.descuento();
+                    break;
+                    case 18:
+                    Ejercicio18 galon =new Ejercicio18();
+                    galon.cobro();
+                    break;
+                    case 19:
+                    Ejercicio19 presu = new Ejercicio19();
+                    presu.plan();
+                    break;
+                    case 20:
+                    Ejercicio20  inte = new Ejercicio20();
+                    inte.interes();
+                    break;
+                    case 21:
+                    Ejercicio21 naranja = new Ejercicio21();
+                    naranja.ganancia();
+                    break;
+                    case 22:
+                    Ejercicio22  sobrecargo = new Ejercicio22();
+                    sobrecargo.recargo();
+                    break;
+                    case 23:
+                    Ejercicio23 dinero= new Ejercicio23();
+                    dinero.ingreso();
                 case 0:
                     System.out.println("Saliendo del programa");
                     break;

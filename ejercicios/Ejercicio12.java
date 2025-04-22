@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ejercicio12 {
     private double mate, mate1, mate2, mate3, fisica, fisica1, fisica2, quimica, quimica1, quimica2, quimica3;
     
-    // Setter para asignar los valores ingresados
     public void setCalificaciones(double examenMatematica, double tareaMatematica1, double tareaMatematica2, double tareaMatematica3,
                                   double examenFisica, double tareaFisica1, double tareaFisica2,
                                   double examenQuimica, double tareaQuimica1, double tareaQuimica2, double tareaQuimica3) {
@@ -22,7 +21,6 @@ public class Ejercicio12 {
         this.quimica3 = tareaQuimica3;
     }
     
-    // Métodos para calcular los promedios
     public double getMatematica() {
         double promedioTareas = (mate1 + mate2 + mate3) / 3;
         return (mate * 0.90) + (promedioTareas * 0.10);
